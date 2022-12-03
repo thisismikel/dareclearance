@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.track-transaction {
+  background-color: #355e3b;
+}
+
+.card {
+  height: 350px;
+  background: url("../img/services_cloa.png") no-repeat !important ;
+  background-size: cover !important;
+  color: #fff;
+}
+
+i {
+  color: #355e3b;
+}
