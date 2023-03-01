@@ -1,0 +1,69 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+
+.navbar {
+  height: 60px !important;
+}
+
+.panel {
+  border: none !important;
+  background-color: none !important;
+}
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.grid-item img {
+  margin: 10px auto;
+}
+.grid-item a {
+  text-align: center !important;
+  color: #fff;
+  color: #006c35;
+}
+
+.grid-item a:hover {
+  text-decoration: none;
+  text-transform: none;
+  color: none;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #006c35;
+}
+
+.footer-container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.footer b {
+  color: #fcd116;
+}
+
+/* custom page css */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.container .text-center {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
