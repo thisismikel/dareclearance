@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DAR XI | e-Clearance</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="fonts/glyphicons-halflings-regular.svg" />
+    <link rel="shortcut icon" href="/images/dar.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">
+            <img
+              src="images/logo.png"
+              alt="Department of Agrarian Reform XI"
+              width="250px"
+            />
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="container content">
+      <h1 class="page-header text-center">
+        e-Clearance System<br /><small>Property Location</small>
+      </h1>
+      <div class="row">
+        <div class="col col-lg-6 col-lg-offset-3 col-xs-12">
+          <img
+            src="images/property.png"
+            alt="phone verification"
+            width="75px"
+            class="img-header"
+          />
+
+          <form action="form.propertydetails.html" method="post">
+            <div class="form-group">
+              <label for="select_province">Select Province *</label>
+              <select class="form-control input-lg">
+                <option>Please Select a Province</option>
+                <option>Davao City</option>
+                <option>Davao Del Norte</option>
+                <option>Davao De Oro</option>
+                <option>Davao Oriental</option>
+                <option>Davao Del Sur</option>
+                <option>Davao Occidental</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="select_municipal">Select Municipality / City *</label>
+              <select class="form-control input-lg">
+                <option value="">{{ Dependent to the province }}</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="select_municipal">Select Barangay *</label>
+              <select class="form-control input-lg">
+                <option value="">{{ Dependent to the Municipality }}</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="InputAddress"
+                >Complete Address of the Property *</label
+              >
+              <textarea
+                name="InputAddress"
+                id=""
+                cols="3"
+                rows="3"
+                class="form-control input-lg"
+              ></textarea>
+            </div>
+            <button class="btn btn-default btn-lg btn-block" type="button">
+              Next
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
